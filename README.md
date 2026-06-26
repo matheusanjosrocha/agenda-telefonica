@@ -17,12 +17,14 @@ Remover contato
 Impedir cadastro de e-mail duplicado
 Impedir cadastro de telefone duplicado
 Tratamento de exceções para operações inválidas
+
 Tecnologias utilizadas
 Java 21
 Maven
 PostgreSQL 17
 JDBC
 IntelliJ IDEA
+
 Estrutura do projeto
 agenda-telefonica/
 ├── src/
@@ -39,6 +41,7 @@ agenda-telefonica/
 ├── pom.xml
 ├── .gitignore
 └── README.md
+
 Banco de dados
 
 O projeto utiliza o banco PostgreSQL.
@@ -77,14 +80,19 @@ Exemplo:
 
 DB_PASSWORD=sua_senha_do_postgresql
 Como executar o projeto
+
 Criar um banco no PostgreSQL chamado:
 agenda_telefonica
+
 Executar o script SQL localizado em:
 sql/agenda_telefonica.sql
+
 Configurar a variável de ambiente:
 DB_PASSWORD
+
 Executar a classe:
 Main.java
+
 Utilizar o menu no terminal:
 1. Adicionar Contato
 2. Remover Contato
@@ -92,8 +100,12 @@ Utilizar o menu no terminal:
 4. Listar Contato
 5. Atualizar Contato
 6. Sair
+
+   
    Autor
 
 Matheus Anjos Rocha
 
-Curso: Análise e Desenvolvimento de Sistemas
+Faculdade: Análise e Desenvolvimento de Sistemas
+universidade: PUCGO Pontifícia Universidade Católica de Goiás
+2º semestre
